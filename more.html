@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Kokoa Clone</title>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/f57af81b89.js" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column"><span>5G</span><i class="fas fa-wifi"></i></div>
+      <div class="status-bar__column">
+        <span id="current-time"></span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar user-component__avatar--xl" src="https://avatars.githubusercontent.com/u/108520929?v=4" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Jaden</h4>
+            <h6 class="user-component__subtitle">+82 10-1234-5678 <i class="fas fa-exclamation-circle"></i></h6>
+          </div>
+        </div>
+
+        <div class="user-component__column">
+          <div><i class="fas fa-clipboard-list fa-2x"></i></div>
+        </div>
+      </div>
+
+      <div class="more-icons">
+        <div class="more-icons__icon"><i class="far fa-calendar-check fa-2x"></i><span>Calendar</span></div>
+        <div class="more-icons__icon"><i class="fas fa-archive fa-2x"></i><span>Talk drive</span></div>
+        <div class="more-icons__icon"><i class="far fa-smile fa-2x"></i><span>Emoticons</span></div>
+        <div class="more-icons__icon"><i class="fas fa-brush fa-2x"></i><span>Themes</span></div>
+      </div>
+
+      <div class="more-icons">
+        <div class="more-icons__icon"><i class="fas fa-code-branch fa-2x"></i><span>Account</span></div>
+        <div class="more-icons__icon"><i class="far fa-comments fa-2x"></i><span>Openchat</span></div>
+      </div>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <img
+              class="more-suggestions__icon-image"
+              src="https://play-lh.googleusercontent.com/sTug7DxquD6aKrTTnsejKXYoK9CrvZo2i6HiuuSXwx5-hU5cm15DPU6ew_CRvji0WhTL" />
+            <span class="more-suggestions__icon-text"> Kakao Story </span>
+          </div>
+
+          <div class="more-suggestions__icon">
+            <img class="more-suggestions__icon-image" src="https://t1.kakaocdn.net/friends/www/talk/kakaofriends_talk_2018.png" />
+            <span class="more-suggestions__icon-text"> Kakao Friends </span>
+          </div>
+
+          <div class="more-suggestions__icon">
+            <img class="more-suggestions__icon-image" src="https://upload.wikimedia.org/wikipedia/ko/0/06/Friends_Gem.png" />
+            <span class="more-suggestions__icon-text"> Friends Gem </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html"> <i class="far fa-comment fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"> <span class="nav__dot"></span><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big TT</span>
+    </div>
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/f57af81b89.js" crossorigin="anonymous"></script>
+  </body>
+</html>
